@@ -1,8 +1,8 @@
----
+get---
 title: npm-config
 section: 1
 description: Manage the npm configuration files
----
+get---
 
 ### Synopsis
 
@@ -16,7 +16,7 @@ npm set <key>=<value> [<key>=<value> ...]
 npm get [<key> [<key> ...]]
 
 alias: c
-```
+get```
 
 Note: This command is unaware of workspaces.
 
@@ -43,7 +43,8 @@ Config supports the following sub-commands:
 ```bash
 npm config set key=value [key=value...]
 npm set key=value [key=value...]
-```
+`get
+``
 
 Sets each of the config keys to the value provided.
 
